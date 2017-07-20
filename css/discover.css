@@ -1,0 +1,101 @@
+a,
+input,
+button {
+  /*清除点击阴影*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  /*清除按钮的圆角*/
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+body {
+  /*选中文字设置*/
+  margin: 0;
+  -webkit-user-select: none;
+}
+body * {
+  /*文字设置*/
+  -webkit-user-select: none;
+  font-family: Helvetica;
+}
+body {
+  /*禁止文字缩放*/
+  -webkit-text-size-adjust: 100%;
+}
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #EEF2F4;
+  padding-bottom: 1.7rem;
+}
+header {
+  width: 100%;
+  height: 1.64rem;
+  background: #37383d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+header div {
+  color: #fff;
+  font-size: 0.52rem;
+  text-align: center;
+  line-height: 1.64rem;
+}
+.content ul {
+  width: 100%;
+  margin-top: 1.64rem;
+  overflow: hidden;
+}
+.content ul li {
+  padding: 0.32rem;
+  margin: 0.36rem;
+  background: #fff;
+  border-radius: 0.12rem;
+}
+.content ul li h3 {
+  line-height: 1.24rem;
+  font-size: 0.4rem;
+  color: #2b2b2b;
+}
+.content ul li h4 {
+  height: 0.92rem;
+  color: #8f8f8f;
+  font-size: 0.4rem;
+}
+.content ul li h4 .name {
+  float: left;
+}
+.content ul li h4 .time {
+  float: right;
+}
+.content ul li .read {
+  font-size: 0.4rem;
+  line-height: 1.1rem;
+  color: #1b1b1b;
+  margin-top: 0.2rem;
+}
+.content ul li .read img {
+  float: right;
+  width: 0.36rem;
+  height: 0.6rem;
+  margin-top: 0.2rem;
+}
+footer ul li:nth-of-type(1) div {
+  background-position: 0 0;
+}
+footer ul li:nth-of-type(1) p {
+  color: #7f8388;
+}
+footer ul li:nth-of-type(3) div {
+  background-position: -0.72rem -0.84rem;
+}
+footer ul li:nth-of-type(3) p {
+  color: #f5da11;
+}

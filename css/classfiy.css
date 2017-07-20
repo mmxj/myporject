@@ -1,0 +1,114 @@
+a,
+input,
+button {
+  /*清除点击阴影*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  /*清除按钮的圆角*/
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+body {
+  /*选中文字设置*/
+  margin: 0;
+  -webkit-user-select: none;
+}
+body * {
+  /*文字设置*/
+  -webkit-user-select: none;
+  font-family: Helvetica;
+}
+body {
+  /*禁止文字缩放*/
+  -webkit-text-size-adjust: 100%;
+}
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #EEF2F4;
+}
+header {
+  background: #37383d;
+  width: 100%;
+  height: 1.64rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+header div {
+  width: 13.78rem;
+  margin: 0.2rem auto;
+  height: 1.2rem;
+  background: #939396;
+  border-radius: 1.2rem;
+}
+header div span {
+  float: left;
+  width: 0.44rem;
+  height: 0.44rem;
+  background: url('../img/search.png') no-repeat;
+  margin-left: 0.36rem;
+  margin-top: 0.36rem;
+  margin-right: 0.32rem;
+  background-size: cover;
+  position: relative;
+}
+header div span:after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 0.44rem;
+  position: absolute;
+  top: 0;
+  right: -0.32rem;
+  background: #5d5d61;
+}
+header div input {
+  outline: none;
+  float: left;
+  line-height: 1.2rem;
+  font-size: 0.4rem;
+  width: 12rem;
+  padding-left: 0.4rem;
+  border: 0;
+  background: transparent;
+}
+.content {
+  margin-top: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+.content ul li {
+  height: 5.2rem;
+  width: 100%;
+  position: relative;
+}
+.content ul li img {
+  height: 5.2rem;
+  width: 100%;
+}
+.content ul li p {
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 0.68rem;
+  top: 2.2rem;
+}
+footer ul li:nth-of-type(1) div {
+  background-position: 0 0;
+}
+footer ul li:nth-of-type(1) p {
+  color: #7f8388;
+}
+footer ul li:nth-of-type(2) div {
+  background-position: -0.72rem -0.84rem;
+}
+footer ul li:nth-of-type(2) p {
+  color: #f5da11;
+}

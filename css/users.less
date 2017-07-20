@@ -1,0 +1,126 @@
+
+@r : 50rem;
+a,
+input,
+button {
+    /*清除点击阴影*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+    /*清除按钮的圆角*/
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+body {
+    /*选中文字设置*/
+    margin: 0;
+    -webkit-user-select: none;
+}
+body * {
+    /*文字设置*/
+    -webkit-user-select: none;
+    font-family: Helvetica;
+}
+body {
+    /*禁止文字缩放*/
+    -webkit-text-size-adjust: 100%;
+}
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#EEF2F4;
+    padding-bottom:85/@r;
+}
+header{
+    width: 100%;
+    height:360/@r;
+    background:url(../img/user_bg.jpg) no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    div{
+        width: 72/@r;
+        text-align:center;
+        margin:119/@r auto;
+        img{
+            display:block;
+            width: 72/@r;
+            height:72/@r;
+        }
+        a{
+            margin-top:30/@r;
+            color:#fff;
+            font-size:22/@r;
+        }
+    }
+}
+.content-list{
+    li{
+            line-height:80/@r;
+            background:#fff;
+            padding:0 15/@r 0 30/@r;
+            border-bottom:#edf3f3;
+            color:#646464;
+            
+        }
+    li:after{
+        content:'';
+        float:right;
+        width: 14/@r;
+        height:23/@r;
+        background:url(../img/readAll.png) no-repeat;
+        background-size:cover;
+        margin-top:28/@r;
+    }    
+    .want_buy{
+        li:nth-of-type(1):before{
+            content:'';
+            float:left;
+            width: 34/@r;
+            height:34/@r;
+            background:url(../img/user_icon.png) no-repeat;
+            margin:20/@r 4/@r;
+            background-size: 34/@r;
+        }
+        li:nth-of-type(2):before{
+             content:'';
+            float:left;
+            width: 34/@r;
+            height:34/@r;
+            background:url(../img/user_icon.png) no-repeat;
+            margin:20/@r 4/@r;
+            background-size: 34/@r;
+            background-position:0 -32/@r;
+        }
+    }
+    .new{
+        margin-top:12/@r;
+    }
+}
+footer{
+    ul{
+        li:nth-of-type(1) {
+            div{
+                background-position:0 0;
+            }
+            p{
+              color: #7f8388;
+            }
+           
+        }
+          
+        li:nth-of-type(4){
+            div{
+                background-position: -36/@r -126/@r;
+            }
+            p{
+                color:#f5da11;
+            }
+        }
+    }
+     
+}
+

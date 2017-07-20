@@ -1,0 +1,145 @@
+a,
+input,
+button {
+  /*清除点击阴影*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  /*清除按钮的圆角*/
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+body {
+  /*选中文字设置*/
+  margin: 0;
+  -webkit-user-select: none;
+}
+body * {
+  /*文字设置*/
+  -webkit-user-select: none;
+  font-family: Helvetica;
+}
+body {
+  /*禁止文字缩放*/
+  -webkit-text-size-adjust: 100%;
+}
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #EEF2F4;
+  padding-bottom: 1.7rem;
+}
+header {
+  position: relative;
+}
+header .onePic {
+  height: 9.9rem;
+  width: 100%;
+  background: url('../img/onePic_bg.jpg') no-repeat;
+  background-size: cover;
+}
+header .twoPic {
+  width: 100%;
+  height: 6.4rem;
+  background: url('../img/twoPic_bg.jpg') no-repeat;
+  background-size: cover;
+}
+header .threePic {
+  width: 100%;
+  height: 6.4rem;
+  background: url('../img/threePic_bg.jpg') no-repeat;
+  background-size: cover;
+}
+header .search {
+  width: 13.8rem;
+  height: 1.2rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 1.2rem;
+  box-sizing: border-box;
+  border: 1px solid #808480;
+  position: absolute;
+  top: 0.92rem;
+  left: 0.6rem;
+  overflow: hidden;
+}
+header .search .sea_left {
+  width: 0.44rem;
+  height: 0.44rem;
+  background: url('../img/search.png') no-repeat;
+  float: left;
+  margin-left: 0.36rem;
+  margin-top: 0.36rem;
+  margin-right: 0.32rem;
+  background-size: cover;
+}
+header .search .sea_right {
+  margin-top: 0.36rem;
+  float: left;
+  border-left: 1px solid #808480;
+  line-height: 0.52rem;
+  font-size: 0.4rem;
+  height: 0.52rem;
+  color: #808480;
+  padding-left: 0.4rem;
+}
+.youPhone {
+  margin-top: 0.6rem;
+}
+.youPhone p {
+  text-align: center;
+}
+.youPhone p img {
+  margin: 0 auto;
+  height: 0.6rem;
+  width: 1.8rem;
+}
+.youPhone .hint {
+  margin-top: 0.58rem;
+  border-top: 0.04rem solid #8c8c8b;
+}
+.youPhone .hint p {
+  color: #aaaaaa;
+  font-size: 0.4rem;
+  width: 5.2rem;
+  height: 1.28rem;
+  background: #EEF2F4;
+  position: relative;
+  top: -0.64rem;
+  line-height: 1.28rem;
+  margin: 0 auto;
+}
+.commodity ul {
+  padding-left: 0.08rem;
+}
+.commodity li {
+  width: 7.3rem;
+  height: 9.66rem;
+  float: left;
+  background: #fff;
+  text-align: center;
+  margin-bottom: 0.24rem;
+}
+.commodity li img {
+  display: block;
+  width: 7.3rem;
+  height: 7.52rem;
+}
+.commodity li h4 {
+  font-size: 0.4rem;
+  margin-top: 0.4rem;
+  line-height: 0.4rem;
+  color: #595959;
+}
+.commodity li p {
+  line-height: 0.4rem;
+  font-size: 0.4rem;
+  margin-top: 0.28rem;
+  color: #f61313;
+}
+.commodity li:nth-of-type(odd) {
+  margin-right: 0.24rem;
+}

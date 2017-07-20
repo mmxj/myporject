@@ -1,0 +1,152 @@
+a,
+input,
+button {
+  /*清除点击阴影*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  /*清除按钮的圆角*/
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+body {
+  /*选中文字设置*/
+  margin: 0;
+  -webkit-user-select: none;
+}
+body * {
+  /*文字设置*/
+  -webkit-user-select: none;
+  font-family: Helvetica;
+}
+body {
+  /*禁止文字缩放*/
+  -webkit-text-size-adjust: 100%;
+}
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #37383d;
+  width: 100%;
+  height: 1.64rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+header div {
+  width: 100%;
+  font-size: 0.5rem;
+  text-align: center;
+  margin-top: 0.58rem;
+  color: #fff;
+  box-sizing: border-box;
+}
+header span {
+  width: 0.68rem;
+  height: 0.62rem;
+  display: block;
+  background: url(../img/sprite_01.png);
+  background-size: 0.68rem;
+}
+header .back {
+  float: left;
+  margin-left: 0.72rem;
+  margin-right: 0.68rem;
+}
+header .mack {
+  float: right;
+  background-position: 0 -0.82rem;
+}
+header .share {
+  float: right;
+  background-position: 0 -1.64rem;
+  margin-right: 0.72rem;
+  margin-left: 0.68rem;
+}
+.title {
+  margin-top: 1.64rem;
+  padding: 0 0.4rem;
+}
+.title h1 {
+  line-height: 2.2rem;
+  color: #000;
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+.title p {
+  line-height: 0.8rem;
+  font-size: 0.48rem;
+  color: #2d2d2d;
+  text-indent: 2em;
+}
+.content ul li {
+  margin-top: 0.96rem;
+}
+.content ul li .index {
+  margin: 0 0.66rem;
+  border-top: 1px solid #cbcbcb;
+}
+.content ul li .index p {
+  background: #fff;
+  width: 1.36rem;
+  height: 0.66rem;
+  margin: 0 auto;
+  position: relative;
+  top: -0.32rem;
+}
+.content ul li .index p span {
+  display: inline-block;
+  padding: 0.04rem 0.12rem;
+  font-size: 0.4rem;
+  background: #f5da11;
+  color: #635c2a;
+  margin-left: 0.32rem;
+  border-radius: 0.16rem;
+}
+.content ul li h2 {
+  line-height: 1.52rem;
+  font-size: 0.48rem;
+  font-weight: bold;
+  text-align: center;
+}
+.content ul li p {
+  margin: 0 0.4rem;
+  font-size: 0.52rem;
+  line-height: 0.8rem;
+  color: #808080;
+  text-align: left;
+}
+.content ul li .img img {
+  width: 100%;
+}
+.content ul li .pri {
+  margin: 0.4rem 0.72rem 0.52rem;
+}
+.content ul li .pri .price {
+  color: #f50f0f;
+  font-size: 0.48rem;
+  float: left;
+  line-height: 0.88rem;
+}
+.content ul li .pri a {
+  float: right;
+  width: 2.8rem;
+  height: 0.88rem;
+  background: #f5da11;
+  text-align: center;
+  line-height: 0.88rem;
+  border-radius: 0.16rem;
+  font-size: 0.48rem;
+  color: #6e6e6e;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: bold;
+}

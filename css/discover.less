@@ -1,0 +1,116 @@
+
+@r : 50rem;
+a,
+input,
+button {
+    /*清除点击阴影*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+    /*清除按钮的圆角*/
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+body {
+    /*选中文字设置*/
+    margin: 0;
+    -webkit-user-select: none;
+}
+body * {
+    /*文字设置*/
+    -webkit-user-select: none;
+    font-family: Helvetica;
+}
+body {
+    /*禁止文字缩放*/
+    -webkit-text-size-adjust: 100%;
+}
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#EEF2F4;
+    padding-bottom:85/@r;
+}
+header{
+    width: 100%;
+    height:82/@r;
+    background:#37383d;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:100;
+    div{
+        color:#fff;
+        font-size:26/@r;
+        text-align:center;
+        line-height:82/@r;
+    }
+}
+.content{
+    ul{
+        width: 100%;
+     margin-top:82/@r;
+     overflow:hidden;
+     li{
+         padding:16/@r;
+         margin:18/@r;
+         background:#fff;
+         border-radius:6/@r;
+         h3{
+             line-height:62/@r;
+             font-size:20/@r;
+             color:#2b2b2b;
+         }
+         h4{
+             height: 46/@r;
+             color:#8f8f8f;
+             font-size:20/@r;
+             .name{
+                 float:left;
+             }
+             .time{
+                 float:right;
+             }
+         }
+         .read{
+             font-size:20/@r;
+             line-height:55/@r;
+             color:#1b1b1b;
+             margin-top:10/@r;
+             img{
+                 float:right;
+                 width: 18/@r;
+                 height:30/@r;
+                 margin-top:10/@r;
+             }
+         }
+     }
+    }
+}
+footer{
+    ul{
+        li:nth-of-type(1) {
+            div{
+                background-position:0 0;
+            }
+            p{
+              color: #7f8388;
+            }
+           
+        }
+          
+        li:nth-of-type(3){
+            div{
+                background-position: -36/@r -42/@r;
+            }
+            p{
+                color:#f5da11;
+            }
+        }
+    }
+     
+}

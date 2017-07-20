@@ -1,0 +1,61 @@
+@r:50rem;
+a,
+input,
+button {
+    /*清除点击阴影*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+    /*清除按钮的圆角*/
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+body {
+    /*选中文字设置*/
+    margin: 0;
+    -webkit-user-select: none;
+}
+body * {
+    /*文字设置*/
+    -webkit-user-select: none;
+    font-family: Helvetica;
+}
+body {
+    /*禁止文字缩放*/
+    -webkit-text-size-adjust: 100%;
+    height:100%;
+}
+html{
+    height:100%;
+}
+section{
+    width: 100%;
+    height:100%;
+    overflow:hidden;
+    position:relative;
+    ul{
+        position:absolute;
+        top:0;
+        left:0;
+        width:300%;
+        height:100%;
+        li{
+            float:left;
+            width: 750/@r;
+            height:100%;
+            position:relative;
+            img{
+            width: 100%;
+            height:100%;
+            }
+            a{
+                position:absolute;
+                left:270/@r;
+                bottom:50/@r;
+                width: 210/@r;
+                height:60/@r;
+            }
+        }
+    }
+}

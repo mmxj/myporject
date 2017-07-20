@@ -1,0 +1,48 @@
+footer {
+  height: 1.5rem;
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0.2rem 0;
+}
+footer ul {
+  width: 100%;
+}
+footer ul li {
+  width: 25%;
+  float: left;
+  padding-top: 0.16rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 0.36rem;
+}
+footer ul li div {
+  width: 0.72rem;
+  height: 0.72rem;
+  margin: 0 auto;
+  background: url(../img/home.png) no-repeat;
+  background-size: 1.44rem 3.16rem;
+}
+footer ul li p {
+  color: #7f8388;
+}
+footer ul li:nth-of-type(1) div {
+  background-position: -0.72rem 0;
+}
+footer ul li:nth-of-type(1) p {
+  color: #f5da11;
+}
+footer ul li:nth-of-type(2) div {
+  background-position: 0 -0.84rem;
+}
+footer ul li:nth-of-type(3) div {
+  background-position: 0 -1.68rem;
+}
+footer ul li:nth-of-type(4) div {
+  background-position: 0 -1.68rem;
+}
+footer ul li:nth-of-type(4) div {
+  background-position: 0 -2.52rem;
+}
